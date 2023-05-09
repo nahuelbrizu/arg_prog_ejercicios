@@ -19,7 +19,6 @@ public class Main {
             System.out.println(e.getNombre() + " - Nota: " + e.getNota());
         }
     }
-
 }
 
 
