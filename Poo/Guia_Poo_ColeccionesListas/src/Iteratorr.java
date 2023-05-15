@@ -4,7 +4,8 @@ public class Iteratorr {
 
 
     // LISTAS //
-
+    //Para poder usar el Iterator es importante crear el objeto de tipo Iterator, con el mismo tipo de dato
+    //que nuestra colección.
     // tamaño dinámico
     static ArrayList<Integer> arrList = new ArrayList<>();
     public static void insertArrList(){
