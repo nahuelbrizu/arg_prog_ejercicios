@@ -16,6 +16,7 @@ public class Main {
                 }
             } catch (NumberFormatException e) {
                 // Si no se proporciona un número válido, se utiliza el valor por defecto (6)
+                System.out.println(e.getMessage());
             }
         }
 
@@ -25,7 +26,8 @@ public class Main {
 
         Revolver revolver = new Revolver();
         Juego juego = new Juego(jugadores, revolver);
-        juego.jugar();    }
+        juego.jugar();
+    }
 }
 
 

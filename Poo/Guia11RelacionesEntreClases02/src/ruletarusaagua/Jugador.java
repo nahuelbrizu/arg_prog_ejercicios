@@ -38,19 +38,26 @@ public class Jugador {
         this.mojado = mojado;
     }
 
-    public boolean disparo(Revolver r ){
+    public boolean disparo(Revolver revolver ){
         //el método, recibe el revolver de agua y llama a los métodos de
         //mojar() y siguienteChorro() de Revolver.
-        if(r.mojar()){
+        if(revolver.mojar()){
             mojado= true;
             return true;
         } else{
-            r.siguienteChorro();
+            revolver.siguienteChorro();
             return  false;
         }
     }
 
-
+    @Override
+    public String toString() {
+        return "Jugador{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", mojado=" + mojado +
+                '}';
+    }
 }
 
 
