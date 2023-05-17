@@ -1,7 +1,6 @@
 package cine;
 
 import java.util.Comparator;
-
 public class Pelicula {
     private String titulo;
     private String director;
@@ -50,8 +49,9 @@ public class Pelicula {
                 ", duracion=" + duracion +
                 '}';
     }
+
 }
 /*
-Un cine necesita implementar un sistema en el que se puedan cargar peliculas.
-Para esto, tendremos una clase Pelicula con el título, director y duración de la película (en horas).
+    Un cine necesita implementar un sistema en el que se puedan cargar peliculas.
+    Para esto, tendremos una clase Pelicula con el título, director y duración de la película (en horas).
  */
